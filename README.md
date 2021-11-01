@@ -17,14 +17,13 @@ Temperature preferences (hottest and coldest daily temp.) are used for the trave
 
 ![WeatherPy_Vacation](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
-The map showcases destinations using pop-up markers showing
+The map above highlights cities with a maximum temperature between 70 and 85 degress Fahrenheit. Selecting a pin provides the application user with:
 
 * Hotel name
 * City
 * Country
 * Current weather
 * Max Temperature
-
 
 ## Sample Itinerary
 A trip to Brazil was planned to demonstrate the apps functionality. Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Brasil.
