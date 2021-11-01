@@ -1,10 +1,6 @@
 # World_Weather_Analysis
 ## Overview
-An app has been developed to aid travelers with their vacation choice when planning a trip. The purpose of this project is to collect, 
-
-The app utilizes 
-
-Generate random global coordinates and utilize citipy to locate nearest cities for weather information.
+The purpose of this project is to help with vacation planning, and impact the overall travel experience by collecting weather data across cities worldwide to provide travelers with a tool allowing them to select their travel destinations based on the locations weather conditions. The tool, an application, is designed to couple weather information to city locations, providing the user with a large number of place to choose to travel.
 
 ## Weather Database
 For weather information, cities around the world were located by randomly generating global coordinates and using a python module to the nearest corresponding city. Each cities weather information was obtain from the OpenWeatherMap API to gather the following data:
@@ -27,8 +23,8 @@ identify potential travel destinations and nearby hotels. The map showcases dest
 
 ![WeatherPy_Vacation](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
-## Sample Trip
-A trip to Brasil was planned to demonstrate the apps functionality. Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Brasil.
+## Sample Itinerary
+A trip to Brazil was planned to demonstrate the apps functionality. Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Brasil.
 
 ![Brasil Directions](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
 
