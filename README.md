@@ -1,6 +1,6 @@
 # World_Weather_Analysis
 ## Overview
-The purpose of this project is to help with vacation planning and impact the overall travel experience by collecting weather data from cities worldwide, providing travelers with a tool aiding them to select their travel destinations based on their ideal weather conditions. The tool, an application, is designed to couple weather information to city locations, providing the user with a large number of place to choose to travel. It also provides hotel information for each city and can road routes when planning a multi-city trip.
+The purpose of this project is to help with vacation planning and impact the overall travel experience by collecting weather data from cities worldwide, providing travelers with a tool to select their ideal travel destinations based on weather conditions. The tool, an application, is designed to couple weather information to city locations, providing the user with a large number of place to choose to travel. It also provides hotel information for each city and can road routes when planning a multi-city trip.
 
 ## Weather Database
 Weather information, sourced from the OpenWeatherMap API, was gathered by generating 2000 random global coordinates and then tying those coordinates to their nearest cities. The following information was gathered for each city:
