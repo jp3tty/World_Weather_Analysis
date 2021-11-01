@@ -25,4 +25,11 @@ identify potential travel destinations and nearby hotels. The map showcases dest
 * Current weather
 * Max Temperature
 
+![WeatherPy_Vacation](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+
+## Sample Trip
 A trip to Brasil was planned to demonstrate the apps functionality. Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Brasil.
+
+![Brasil Directions](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map.PNG)
+
+![Brasil Hotel Information](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Itinerary/WeatherPy_travel_map_markers.PNG)
