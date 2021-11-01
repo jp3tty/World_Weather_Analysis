@@ -1,9 +1,9 @@
 # World_Weather_Analysis
 ## Overview
-The purpose of this project is to help with vacation planning, and impact the overall travel experience by collecting weather data across cities worldwide to provide travelers with a tool allowing them to select their travel destinations based on the locations weather conditions. The tool, an application, is designed to couple weather information to city locations, providing the user with a large number of place to choose to travel.
+The purpose of this project is to help with vacation planning and impact the overall travel experience by collecting weather data from cities worldwide, providing travelers with a tool aiding them to select their travel destinations based on their ideal weather conditions. The tool, an application, is designed to couple weather information to city locations, providing the user with a large number of place to choose to travel. It also provides hotel information for each city and can road routes when planning a multi-city trip.
 
 ## Weather Database
-For weather information, cities around the world were located by randomly generating global coordinates and using a python module to the nearest corresponding city. Each cities weather information was obtain from the OpenWeatherMap API to gather the following data:
+Weather information, sourced from the OpenWeatherMap API, was gathered by generating 2000 random global coordinates and then tying those coordinates to their nearest cities. The following information was gathered for each city:
 
 * Latitude and longitude
 * Maximum temperature
@@ -13,7 +13,11 @@ For weather information, cities around the world were located by randomly genera
 * Current weather description
 
 ## Vacation Application
-identify potential travel destinations and nearby hotels. The map showcases destinations using pop-up markers showing
+Temperature preferences (hottest and coldest daily temp.) are used for the traveler to identify their destination. Once input the application displays a world map showing pins of potential destinations.
+
+![WeatherPy_Vacation](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
+
+The map showcases destinations using pop-up markers showing
 
 * Hotel name
 * City
@@ -21,7 +25,6 @@ identify potential travel destinations and nearby hotels. The map showcases dest
 * Current weather
 * Max Temperature
 
-![WeatherPy_Vacation](https://github.com/jp3tty/World_Weather_Analysis/blob/main/Vacation_Search/WeatherPy_vacation_map.png)
 
 ## Sample Itinerary
 A trip to Brazil was planned to demonstrate the apps functionality. Using the Google Directions API, a sample itinerary was created that shows the route between four cities in Brasil.
